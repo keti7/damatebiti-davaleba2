@@ -229,11 +229,14 @@ h1{
     margin-left: 180px;
   }
 .footer-main {
+    width: 100%;
+    height: auto;
     display: flex;
     flex-direction: column;
     row-gap: 0px;
   }
   .footer-up {
+    width: 100%;
     height: 425px;
     display: flex;
     align-items: top;
@@ -243,9 +246,12 @@ h1{
   }
   .footer-container {
     width: 249px;
+    height: 100%;
     background-color: #efefef;
+    padding: 60px 50px;
     display: flex;
     flex-direction: column;
+    row-gap: 40px;
   }
   .footer-container-title {
     width: 100%;
